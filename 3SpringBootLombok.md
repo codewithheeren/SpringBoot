@@ -42,7 +42,7 @@ server.port = 9090
  * @author Heeren
  * @version 1.0
  */
-package com.apolis.entity;
+package com.codewithheeren.entity;
 
 import org.springframework.stereotype.Component;
 import lombok.AllArgsConstructor;
@@ -83,16 +83,16 @@ public class Employee {
  * @author Heeren
  * @version 1.0
  */
-package com.apolis.startapp;
+package com.codewithheeren.startapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import com.apolis.entity.Employee;
+import com.codewithheeren.entity.Employee;
 
 @SpringBootApplication
-@ComponentScan("com.apolis")
+@ComponentScan("com.codewithheeren")
 public class Application {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(Application.class, args);

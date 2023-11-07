@@ -36,7 +36,7 @@ server.port = 9090
  * @author Heeren
  * @version 1.0
  */
-package com.apolis.runner;
+package com.codewithheeren.runner;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -58,7 +58,7 @@ public class CustomRunner implements CommandLineRunner {
  * @author Heeren
  * @version 1.0
  */
-package com.apolis.runner;
+package com.codewithheeren.runner;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
@@ -83,14 +83,14 @@ public class ReadDataRunner implements CommandLineRunner {
  * @author Heeren
  * @version 1.0
  */
-package com.apolis.startapp;
+package com.codewithheeren.startapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.apolis")
+@ComponentScan("com.codewithheeren")
 public class Application {
 
 	public static void main(String[] args) {
